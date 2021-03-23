@@ -1,0 +1,428 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: baskerville old face;
+	text-decoration: none;
+	list-style: none;
+
+}
+.navbar{
+	background-color: skyblue;
+    width: 100%;
+    position: fixed;
+    padding: 15px 0px;
+ }
+ .navbar .max-width{
+	width: 1300px;
+	display: flex;
+	justify-content: space-between;
+    margin:auto;
+
+}
+.logo a{
+	color: #fff;
+	font-size: 40px;
+	font-weight: 500px;
+}
+.logo a span {
+	color: darkgray;
+	transition: color 2s;
+}
+.menu{
+	margin-top: 6px;
+}
+.menu li{
+	display: inline-block;
+}
+.menu li a{
+	color: white;
+	font-size: 20px;
+	font-weight: 200;
+	margin-left: 25px; 
+	transition: color 2s;
+}
+.menu li a:hover{
+	color: #000;
+} 
+/************************************************************************/
+.home{
+	background:url('voile.jpg');
+	height:600px;
+	display: flex;
+}
+.home .max-width{
+	color: white;
+	margin: auto 120px;
+}
+.home .max-width .text-1{
+	font-size: 70px;
+	font-weight: 600;
+
+}
+.home .max-width .text-2{
+	color: skyblue;
+	font-size: 60px;
+	font-weight 600;
+}
+.home .max-width .text-3{
+	font-size: 50px;
+	font-weight: 700;
+}
+.home .max-width .text-3 span{
+	color: 	skyblue;
+}
+.home .max-width a{
+	display:inline-block;	
+	font-size: 	40px;
+	font-weight: 	200;
+	background-color: 	grey;
+	color: 	white;
+	border-radius: 	20px;
+	padding: 	15px 30px;
+	margin-top: 	20px;
+	border:2px solid skyblue;
+}
+.home .max-width a:hover{
+	background:skyblue;
+}
+/********************************************************************/
+.max-width h2{
+	text-decoration: none;
+}
+.about{
+	padding:50px 150px;
+}
+.about .title{
+	font-size: 	40px;
+	font-weight: 	500;
+	text-align: 	center;	
+	text-decoration: 	underline skyblue;	
+
+}
+.about .about-content{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 60px;	
+
+
+}
+.about .div-left{
+	width: 45%;
+
+}
+.about .div-right{
+	width:55%;
+}
+.about .div-left img{
+	height: 400px;
+	width: 400px;
+	border-radius: 20px;
+	object-fit: cover;
+}
+.about .div-right .text{
+	font-size: 	35px;
+	font-weight: 	600;
+
+}
+.about .div-right .text span{
+	color: 	skyblue;
+}
+.about .div-right p{
+	text-align: 	justify;
+	font-size: 	20px;	
+}
+.about .div-right a{
+	display:inline-block;	
+	font-size: 	40px;
+	font-weight: 	200;
+	background-color: 	gray;
+	color: 	white;
+	border-radius: 	20px;
+	padding: 	15px 30px;
+	margin-top: 	20px;
+	border:2px solid skyblue	;
+}
+.about .div-right a:hover{
+	background:none;
+	color: 	skyblue;
+}
+.t1 {
+	display:inline-block;	
+	font-size: 	40px;
+	font-weight: 	200;
+	background-color: 	skyblue;
+	color: 	white;
+	border-radius: 	20px;
+	padding: 	15px 30px;
+	margin-top: 	20px;
+	border:2px solid crimson	;
+	}
+	.p{
+		color: skyblue;
+	}
+	.ibou img{
+		height: 200px;
+	width: 196px;
+	border-radius: 3px;
+	object-fit: cover;
+	border:2px solid gray	;
+
+	}
+	.tab1{
+		background-color: skyblue;
+		color: white;
+		transition: color 2s;
+		font-size: 20px;
+		margin-left: 200px;
+		height: 200px;
+	width: 200px;
+	border-radius: 5px;
+	}
+	.tab2{
+		background-color: skyblue;
+		color: white;
+	font-size: 20px;
+	font-weight: 200;
+	margin-left: 400px; 
+	transition: color 2s;
+	height: 200px;
+	width: 200px;
+	border-radius: 5px;
+	}
+	
+	/****************************************************************************/
+	.tab1{
+		background-color: skyblue;
+		color: white;
+		transition: color 2s;
+		font-size: 20px;
+		margin-left: 200px;
+		height: 200px;
+	width: 200px;
+	border-radius: 5px;
+	}
+	.tab2{
+		background-color: skyblue;
+		color: white;
+	font-size: 20px;
+	font-weight: 200;
+	margin-left: 400px; 
+	transition: color 2s;
+	height: 200px;
+	width: 200px;
+	border-radius: 5px;
+}
+	.tab3{
+		background-color: skyblue;
+		color: white;
+		transition: color 2s;
+		font-size: 20px;
+		margin-left: 200px;
+		height: 200px;
+	width: 200px;
+	border-radius: 5px;
+	}
+	.tab4{
+		background-color: skyblue;
+		color: white;
+	font-size: 20px;
+	font-weight: 200;
+	margin-left: 400px; 
+	transition: color 2s;
+	height: 200px;
+	width: 200px;
+	border-radius: 5px;
+	}
+
+	.tab5{
+		background-color: skyblue;
+		color: white;
+		transition: color 2s;
+		font-size: 20px;
+		margin-left: 200px;
+		height: 200px;
+	width: 200px;
+	border-radius: 5px;
+	margin-top: 50px;
+	}
+	.tab6{
+		background-color: skyblue;
+		color: white;
+	font-size: 20px;
+	font-weight: 200;
+	margin-left: 400px; 
+	transition: color 2s;
+	height: 200px;
+	width: 200px;
+	border-radius: 5px;
+	margin-top: 50px;
+}
+	.tab7{
+		background-color: skyblue;
+		color: white;
+		transition: color 2s;
+		font-size: 20px;
+		margin-left: 200px;
+		height: 200px;
+	width: 200px;
+	border-radius: 5px;
+	margin-top: 50px;
+	}
+	.tab8{
+		background-color: skyblue;
+		color: white;
+	font-size: 20px;
+	font-weight: 200;
+	margin-left: 400px; 
+	transition: color 2s;
+	height: 200px;
+	width: 200px;
+	border-radius: 5px;
+	margin-top: 50px;
+	}
+
+	.tab9{
+		background-color: skyblue;
+		color: white;
+		transition: color 2s;
+		font-size: 20px;
+		margin-left: 200px;
+		height: 200px;
+	width: 200px;
+	border-radius: 5px;
+	margin-top: 100px;
+	}
+	.tab10{
+		background-color: skyblue;
+		color: white;
+	font-size: 20px;
+	font-weight: 200;
+	margin-left: 400px; 
+	transition: color 2s;
+	height: 200px;
+	width: 200px;
+	border-radius: 5px;
+	margin-top: 100px;
+}
+	.tab11{
+		background-color: skyblue;
+		color: white;
+		transition: color 2s;
+		font-size: 20px;
+		margin-left: 200px;
+		height: 200px;
+	width: 200px;
+	border-radius: 5px;
+	margin-top: 100px;
+	}
+	.tab12{
+		background-color: skyblue;
+		color: white;
+	font-size: 20px;
+	font-weight: 200;
+	margin-left: 400px; 
+	transition: color 2s;
+	height: 200px;
+	width: 200px;
+	border-radius: 5px;
+	margin-top: 100px;
+	}
+
+	.tab13{
+		background-color: skyblue;
+		color: white;
+		transition: color 2s;
+		font-size: 20px;
+		margin-left: 200px;
+		height: 200px;
+	width: 200px;
+	border-radius: 5px;
+	margin-top: 150px;
+	}
+	.tab14{
+		background-color: skyblue;
+		color: white;
+	font-size: 20px;
+	font-weight: 200;
+	margin-left: 400px; 
+	transition: color 2s;
+	height: 200px;
+	width: 200px;
+	border-radius: 5px;
+	margin-top: 150px;
+}
+	.tab15{
+		background-color: skyblue;
+		color: white;
+		transition: color 2s;
+		font-size: 20px;
+		margin-left: 200px;
+		height: 200px;
+	width: 200px;
+	border-radius: 5px;
+	margin-top: 150px;
+	}
+	.tab16{
+		background-color: skyblue;
+		color: white;
+	font-size: 20px;
+	font-weight: 200;
+	margin-left: 400px; 
+	transition: color 2s;
+	height: 200px;
+	width: 200px;
+	border-radius: 5px;
+	margin-top: 150px;
+	}
+
+	.tab17{
+		background-color: skyblue;
+		color: white;
+		transition: color 2s;
+		font-size: 20px;
+		margin-left: 200px;
+		height: 200px;
+	width: 200px;
+	border-radius: 5px;
+	margin-top: 240px;
+	}
+	.tab18{
+		background-color: skyblue;
+		color: white;
+	font-size: 20px;
+	font-weight: 200;
+	margin-left: 400px; 
+	transition: color 2s;
+	height: 200px;
+	width: 200px;
+	border-radius: 5px;
+	margin-top: 250px;
+}
+	.tab19{
+		background-color: skyblue;
+		color: white;
+		transition: color 2s;
+		font-size: 20px;
+		margin-left: 200px;
+		height: 200px;
+	width: 200px;
+	border-radius: 5px;
+	margin-top: 200px;
+	}
+	.tab20{
+		background-color: skyblue;
+		color: white;
+	font-size: 20px;
+	font-weight: 200;
+	margin-left: 400px; 
+	transition: color 2s;
+	height: 200px;
+	width: 200px;
+	border-radius: 5px;
+	margin-top: 200px;
+
+	}
+/********************************************************************************/
+
+
+	
